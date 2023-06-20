@@ -1,13 +1,8 @@
-#include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    print_alphabet();
-    return (0);
-}
+int _putchar(char c);
+void print_alphabet(void);
+/* Add any other function prototypes here */
 
+#endif /* MAIN_H */

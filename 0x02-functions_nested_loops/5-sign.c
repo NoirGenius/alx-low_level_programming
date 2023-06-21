@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * prints_sign - gives sign output for numbers
+ * print_sign - gives sign output for numbers
  * @n: the number we are checking
  *
  * Return:1 and prints'+' if more than 0,

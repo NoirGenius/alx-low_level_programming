@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * print_rev - prints a string, in reverse
- * @s: poiner to string
+ * _puts - prints string followed by a new line
+ * @str: poiner to string
  */
-void print_rev(char *s)
+void _puts(char *str)
 {
-	while (*s != '\0')
+	while (*str != '\0')
 	{
-		_putchar(*s);
-		s++;
+		_putchar(*str);
+		str++;
 	}
 
 	_putchar('\n');

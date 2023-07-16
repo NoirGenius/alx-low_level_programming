@@ -9,5 +9,6 @@
  *         If malloc fails, terminates the program
  */ 
 void *malloc_checked(unsigned int b);
+char *string_nconcat(char *s1, char *s2, unsigned int n);
 
 #endif /* MALLOC_CHECKED_H */

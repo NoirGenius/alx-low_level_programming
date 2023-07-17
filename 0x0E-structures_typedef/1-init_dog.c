@@ -19,3 +19,14 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
         d->owner = owner;
     }
 }
+int main()
+{
+    struct dog my_dog;
+    init_dog(&my_dog, "JJ", 7, "Cate");
+
+    printf("Dog Name: %s\n", my_dog.name);
+    printf("Dog Age: %.1f\n", my_dog.age);
+    printf("Dog Owner: %s\n", my_dog.owner);
+
+    return 0;
+}

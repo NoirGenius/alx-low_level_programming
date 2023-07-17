@@ -1,13 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-/*
- * struct dog - structure in question 
+/**
+ * struct dog - struct dog with these elements:
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
  *
- * Return: 0
  */
-struct dog
-{
-	char *name;
-	char *owner;
-	float age;
+struct dog {
+    char *name;
+    float age;
+    char *owner;
 };
